@@ -122,6 +122,7 @@
 
 .debug .free_trial{
     height: 200px;
+    background-color: #B4D0E7;
 }
 
 .debug #free_trial_title{
@@ -132,6 +133,14 @@
     background-color: aliceblue;
 }
 
+
+.debug .faq_container{
+    background-color: blanchedalmond;
+}
+
+.debug .question{
+    height: 40px;
+}
 
 
 
@@ -248,7 +257,6 @@ header{
 .free_trial{
     display: flex;
     align-items: center;
-    height: 200px;
 }
 
 #free_trial_title{
@@ -258,5 +266,9 @@ header{
 
 .free_trial_bttn{
     width: 40%;
-    background-color: aliceblue;
 }
+
+.faq_container{
+    margin: 50px 0;
+}
+
