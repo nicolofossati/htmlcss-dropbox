@@ -1,5 +1,48 @@
+/*       DEBUG       */
+
+.debug header{
+    background-color: black;
+}
+
+.debug .nav_header{
+    background-color: aliceblue;
+    width: 20%;
+    height: 50%;
+}
+
+.debug .debug_a_size{
+    background-color: orange;
+    width: 50px;
+    height: 100%;
+}
+
+.debug .hdr_left{
+
+}
+
+.debug .hdr_left{
+    
+}
+
+/*    fine   DEBUG   */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    height: 75px;
+    width: 100%;
+}
+
+.nav_header{
+    display: flex;
+    justify-content: space-between;
 }
