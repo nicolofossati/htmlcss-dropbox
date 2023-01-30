@@ -40,6 +40,35 @@
     height: 100%;
 }
 
+.debug .indoor_main{
+}
+
+.debug .section_container{
+    margin: 30px 0;
+    background-color: rgb(255, 63, 114);
+}
+
+.debug .generic_h3_title{
+    height: 30px;
+    background-color: rgb(35, 35, 35);
+    color: white;
+}
+
+.debug .plan_choice {
+    background-color: rgb(255, 218, 163);
+    height: 50px;
+}
+
+.debug .col_container{
+    height: 300px;
+}
+
+.debug .col{
+    background-color: #B4D0E7;
+}
+
+
+
 /*    fine   DEBUG   */
 
 *{
@@ -83,4 +112,31 @@ header{
 
 .jumbotron_img{
     width: 60%;
+}
+
+
+
+.indoor_margin{
+    margin: 0 20px;
+}
+
+.indoor_main{
+    width: 50%;
+    margin: auto;
+}
+
+
+.generic_h3_title{
+}
+
+
+.col_container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.col{
+    width: calc(100% - 40px);
+    margin: 0 20px;
 }
