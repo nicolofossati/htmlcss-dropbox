@@ -102,6 +102,23 @@
 }
 
 
+.debug .partner_link_container{
+    height: 200px;
+    background-color: aqua;
+    margin: 100px 0;
+}
+
+
+.debug .big_square{
+    background-color: grey;
+
+}
+
+.debug .small_square{
+    background-color: aqua;
+    border: 1px black solid;
+}
+
 
 
 
@@ -190,4 +207,27 @@ header{
 
 .contact_description_container{
     width: 40%;
+}
+
+
+.partner_logo_container{
+    width: 100%;
+    display: flex;
+}
+
+.partner_link_container{
+    margin-top: 150px 0;
+}
+
+
+.big_square{
+    width: calc(100vw/3);
+    height: calc(100vw/3);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.small_square{
+    width: 50%;
+    height: 50%;
 }
