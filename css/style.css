@@ -272,3 +272,25 @@ header{
     margin: 50px 0;
 }
 
+
+.footer_container{
+    width: 60%;
+    margin: auto;
+    background-color: aqua;
+}
+
+.footer_col{
+    width: calc(100%/6 - 40px);
+    background-color: rgb(42, 148, 148);
+    margin: 0 20px;
+    height: 200px;
+}
+
+
+.footer_top{
+    display: flex;
+}
+
+.footer_bottom{
+    height: 100px;
+}
