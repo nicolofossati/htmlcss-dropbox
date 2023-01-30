@@ -16,12 +16,28 @@
     height: 100%;
 }
 
-.debug .hdr_left{
-
+.debug .jumbotron{
+    background-color: rgb(252, 255, 159);
+    height: 500px; 
 }
 
-.debug .hdr_left{
-    
+.debug .title{
+    height: 100px;
+    width: 100%;
+}
+
+.debug .jumbotron_description_container{
+    height: calc(100% - 100px);
+}
+
+.debug .jumbotron_description{
+    background-color: rgb(183, 220, 220);
+    height: 100%;
+}
+
+.debug .jumbotron_img{
+    background-color: rgb(162, 239, 239);
+    height: 100%;
 }
 
 /*    fine   DEBUG   */
@@ -37,7 +53,6 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
     height: 75px;
     width: 100%;
 }
@@ -45,4 +60,27 @@ header{
 .nav_header{
     display: flex;
     justify-content: space-between;
+}
+
+
+
+.jumbotron_container{
+    background-color: #B4D0E7;
+}
+.jumbotron{
+    width: 60%;
+    margin: auto;  
+}
+
+.jumbotron_description_container{
+    display: flex;
+    width: 100%;
+}
+
+.jumbotron_description{
+    width: 40%;
+}
+
+.jumbotron_img{
+    width: 60%;
 }
