@@ -54,20 +54,36 @@
     color: white;
 }
 
+.debug .generic_h4_title{
+    height: 20px;
+    background-color: rgb(151, 151, 151);
+    color: white;
+}
+
+.debug .generic_h6_title{
+    height: 30px;
+    background-color: rgb(111, 173, 83);
+    color: white;
+}
+
 .debug .plan_choice {
     background-color: rgb(255, 218, 163);
     height: 50px;
 }
 
 .debug .col_container{
-    height: 300px;
+    
 }
 
 .debug .col{
     background-color: #B4D0E7;
+    height: 500px;
 }
 
-
+.debug .team_container{
+    height: 200px;
+    background-color: blue;
+}
 
 /*    fine   DEBUG   */
 
@@ -126,7 +142,8 @@ header{
 }
 
 
-.generic_h3_title{
+.generic_h6_title{
+    text-align: center;
 }
 
 
@@ -139,4 +156,9 @@ header{
 .col{
     width: calc(100% - 40px);
     margin: 0 20px;
+}
+
+
+.contact_img_container{
+    width: 60%;
 }
