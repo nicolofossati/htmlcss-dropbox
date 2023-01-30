@@ -72,18 +72,38 @@
 }
 
 .debug .col_container{
-    
+    margin-top: 50px;
 }
 
 .debug .col{
     background-color: #B4D0E7;
-    height: 500px;
+    height: 300px;
 }
 
 .debug .team_container{
     height: 200px;
     background-color: blue;
 }
+
+.debug .contact_partner_container{
+    height: 300px;
+}
+
+.debug .contact_img_container{
+    background-color: bisque;
+}
+
+.debug .contact_description_container{
+    background-color: rgb(163, 173, 173);
+}
+
+.debug .operation_img{
+    height: 150px;
+}
+
+
+
+
 
 /*    fine   DEBUG   */
 
@@ -159,6 +179,15 @@ header{
 }
 
 
+.contact_partner_container{
+    display: flex;
+    margin: 30px 20px;
+}
+
 .contact_img_container{
     width: 60%;
+}
+
+.contact_description_container{
+    width: 40%;
 }
