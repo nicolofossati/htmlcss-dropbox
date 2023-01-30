@@ -120,6 +120,19 @@
 }
 
 
+.debug .free_trial{
+    height: 200px;
+}
+
+.debug #free_trial_title{
+    color: #640C2A;
+}
+
+.debug .free_trial_bttn{
+    background-color: aliceblue;
+}
+
+
 
 
 /*    fine   DEBUG   */
@@ -230,4 +243,20 @@ header{
 .small_square{
     width: 50%;
     height: 50%;
+}
+
+.free_trial{
+    display: flex;
+    align-items: center;
+    height: 200px;
+}
+
+#free_trial_title{
+    color: #640C2A;
+    width: 60%;
+}
+
+.free_trial_bttn{
+    width: 40%;
+    background-color: aliceblue;
 }
