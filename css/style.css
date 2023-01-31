@@ -362,6 +362,33 @@ main{
     padding: 20px 0
 }
 
+.purchase_link{
+    padding: 15px 0 30px;
+    display: block;
+    text-align: center;
+}
+
+.divisor{
+    width: 20%;
+    color: #bfbebe;
+    margin-bottom: 30px;
+}
+
+.row_list{
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.row_list i{
+    color: #0061FF;
+    padding-top: 3px;
+}
+
+.col ul{
+    padding: 15px 0
+}
+
+
 
 
 
