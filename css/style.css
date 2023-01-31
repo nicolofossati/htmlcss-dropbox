@@ -49,7 +49,6 @@
     background-color: rgb(255, 63, 114);
 }
 
-*/
 
 
 .debug .generic_h3_title{
@@ -75,6 +74,7 @@
     height: 50px;
 }
 
+
 .debug .col_container{
     margin-top: 50px;
 }
@@ -84,6 +84,7 @@
     height: 300px;
 }
 
+*/
 .debug .team_container{
     height: 200px;
     background-color: blue;
@@ -174,7 +175,7 @@ header{
 }
 
 main{
-    margin-top: 60px;
+    padding-top: 60px;
 }
 
 /* GENERIC Rules */
@@ -281,6 +282,26 @@ main{
     margin: auto;
 }
 
+.plan_choice {
+    display: flex;
+}
+
+.plan{
+    padding-right: 30px;
+}
+
+.round{
+    display: inline-block;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    border: #868686 1px solid;
+}
+
+.round_selected{
+    border: #0061FF 3px solid;
+}
+
 
 .generic_h6_title{
     text-align: center;
@@ -290,14 +311,30 @@ main{
 .col_container{
     display: flex;
     justify-content: space-between;
-    
+    margin-top: 50px;
 }
 
 .col{
     width: calc(100% - 40px);
     margin: 0 20px;
+    border: #bfbebe 1px solid;
 }
 
+.category {
+    text-align: center;
+    padding: 5px;
+    border-bottom: #bfbebe 1px solid;
+}
+
+.indoor_col{
+    width: 80%;
+    margin: auto;
+}
+
+
+.team_container{
+    margin-top: 100px;
+}
 
 .contact_partner_container{
     display: flex;
