@@ -1,4 +1,4 @@
-/*       DEBUG       */
+/*       DEBUG       
 
 .debug header{
     background-color: black;
@@ -15,6 +15,8 @@
     width: 50px;
     height: 100%;
 }
+
+
 
 .debug .jumbotron{
     background-color: rgb(252, 255, 159);
@@ -39,7 +41,7 @@
     background-color: rgb(162, 239, 239);
     height: 100%;
 }
-
+*/
 .debug .indoor_main{
 }
 
@@ -47,6 +49,8 @@
     margin: 30px 0;
     background-color: rgb(255, 63, 114);
 }
+
+
 
 .debug .generic_h3_title{
     height: 30px;
@@ -143,8 +147,12 @@
 }
 
 
-
 /*    fine   DEBUG   */
+
+
+
+
+
 
 *{
     margin: 0;
@@ -157,23 +165,67 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 75px;
+    height: 60px;
     width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
 }
+
+main{
+    margin-top: 60px;
+}
+
+/* GENERIC Rules */
+.generic_font{
+    font-size: 12px;
+}
+
+.txt_dec_none{
+    text-decoration: none;
+}
+
+
+/* end GENERIC FONTS */
 
 .nav_header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.nav_header a{
+    color: black;
+    padding: 10px;
 }
 
 
+.bttn{
+    padding: 5px 10px;
+    width: max-content;
+}
+
+.blue_bttn{
+    background-color: #0061FF;
+    color: white;
+}
+#blue_bttn_id{
+    background-color: #0061FF;
+    color: white;    
+}
 
 .jumbotron_container{
     background-color: #B4D0E7;
 }
 .jumbotron{
     width: 60%;
-    margin: auto;  
+    margin: auto;
+}
+
+.jumbotron_title h1{
+    font-size: 60px;
+    padding: 80px 0 40px;
 }
 
 .jumbotron_description_container{
