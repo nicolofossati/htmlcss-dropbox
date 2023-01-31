@@ -338,6 +338,27 @@ main{
     width: 80%;
     margin: auto;
 }
+.team_container{
+    border: #bfbebe 1px solid;
+    margin-top: 40px;
+}
+
+.indoor_team{
+    width: 95%;
+    margin: auto;
+}
+
+.enterprice_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 5px;
+}
+
+.enterprice_description{
+    width: 60%;
+    padding: 40px 0 20px;
+}
+
 .indoor_col h3{
     padding: 15px 0;
 }
@@ -392,9 +413,6 @@ main{
 
 
 
-.team_container{
-    margin-top: 100px;
-}
 
 .contact_partner_container{
     display: flex;
