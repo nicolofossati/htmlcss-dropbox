@@ -89,7 +89,6 @@
     height: 200px;
     background-color: blue;
 }
-*/
 .debug .contact_partner_container{
     height: 300px;
 }
@@ -101,6 +100,7 @@
 .debug .contact_description_container{
     background-color: rgb(163, 173, 173);
 }
+*/
 
 .debug .operation_img{
     height: 150px;
@@ -225,6 +225,11 @@ main{
     background-color: #0061FF;
     color: white;
 }
+
+.white_bttn{
+    border: black solid 1px;
+}
+
 #blue_bttn_id{
     background-color: #0061FF;
     color: white;    
@@ -420,11 +425,26 @@ main{
 }
 
 .contact_img_container{
-    width: 60%;
+    width: 60%
+}
+
+.contact_img_container img{
+    width: 100%;
 }
 
 .contact_description_container{
     width: 40%;
+}
+
+.contact_indoor{
+    width: 80%;
+    margin: auto;
+    padding: 30px 0;
+}
+
+.contact_indoor span{
+    padding: 20px 0;
+    display: block;
 }
 
 
