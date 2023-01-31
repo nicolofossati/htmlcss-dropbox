@@ -100,12 +100,12 @@
 .debug .contact_description_container{
     background-color: rgb(163, 173, 173);
 }
-*/
 
 .debug .operation_img{
     height: 150px;
 }
 
+*/
 
 .debug .partner_link_container{
     height: 200px;
@@ -283,7 +283,7 @@ main{
 }
 
 .section_container h2{
-    padding: 60px 0;
+    padding-top: 60px ;
 }
 
 .indoor_margin{
@@ -297,6 +297,7 @@ main{
 
 .plan_choice {
     display: flex;
+    padding-top: 60px;
 }
 
 .plan{
@@ -330,6 +331,9 @@ main{
 .col{
     width: calc(100% - 40px);
     margin: 0 20px;
+}
+
+.border_grey{
     border: #bfbebe 1px solid;
 }
 
@@ -414,11 +418,6 @@ main{
     padding: 15px 0
 }
 
-
-
-
-
-
 .contact_partner_container{
     display: flex;
     margin: 30px 20px;
@@ -446,6 +445,19 @@ main{
     padding: 20px 0;
     display: block;
 }
+
+
+
+
+.operation_img img{
+    width: 100%;
+}
+
+
+.operation_description h3{
+    padding-bottom: 20px;
+}
+
 
 
 .partner_logo_container{
