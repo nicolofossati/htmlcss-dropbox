@@ -105,14 +105,12 @@
     height: 150px;
 }
 
-*/
 
 .debug .partner_link_container{
     height: 200px;
     background-color: aqua;
     margin: 100px 0;
 }
-
 
 .debug .big_square{
     background-color: grey;
@@ -124,6 +122,7 @@
     border: 1px black solid;
 }
 
+*/
 
 .debug .free_trial{
     height: 200px;
@@ -466,7 +465,13 @@ main{
 }
 
 .partner_link_container{
-    margin-top: 150px 0;
+    padding: 100px 0;
+
+}
+
+.partner_link_container a{
+    padding-top: 40px;
+    display: block;
 }
 
 
@@ -521,4 +526,71 @@ main{
 
 .footer_bottom{
     height: 100px;
+}
+
+.flex_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.small_square img{
+    /* find color for .svg*/
+}
+
+.designit img{
+    width: 125px;
+}
+.designit{
+    background-color: #A2D39B;
+}
+
+.asu img{
+    width: 100px;
+}
+.asu{
+    background-color: #61082B;
+}
+
+.uf img{
+    width: 125px;
+}
+.uf{
+    background-color: #0093CE;
+}
+
+.topps img{
+    width: 125px;
+}
+.topps{
+    background-color: #FF1C1C;
+}
+
+
+.wbr img{
+    width: 125px;
+}
+.wbr{
+    background-color: #D5001F;
+}
+
+.hearst img{
+    width: 100px;
+}
+.hearst{
+    background-color: #B4D0E7;
+}
+
+.lp img{
+    width: 125px;
+}
+.lp{
+    background-color: #0D2481;
+}
+
+.cco img{
+    width: 125px;
+}
+.cco{
+    background-color: #FFD830;
 }
