@@ -192,6 +192,14 @@ main{
     font-size: 20px;
 }
 
+.generic_h3{
+    font-size: 16px;
+}
+
+.generic_h4{
+    font-size: 11px;
+}
+
 
 
 /* end GENERIC Rules */
@@ -330,6 +338,31 @@ main{
     width: 80%;
     margin: auto;
 }
+.indoor_col h3{
+    padding: 15px 0;
+}
+.indoor_col .period{
+    padding: 5px 0;
+}
+
+.period {
+    color: #a3a3a3;
+}
+
+.col_info {
+    display: flex;
+    padding: 6px 0;
+}
+
+.col_info i{
+    padding: 3px 5px;
+}
+
+.col_info_container{
+    padding: 20px 0
+}
+
+
 
 
 .team_container{
