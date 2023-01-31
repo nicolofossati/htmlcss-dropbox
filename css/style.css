@@ -594,3 +594,28 @@ main{
 .cco{
     background-color: #FFD830;
 }
+
+
+.big_content_square{
+    background-color: #F5F5F5;
+    width: calc(100vw/3);
+    height: calc(100vw/3);
+}
+
+.big_square_indoor{
+    width: 90%;
+    margin: auto;
+    padding: 30px 0;
+}
+
+.big_square_indoor img{
+    width: 180px;
+    padding-bottom: 30px;
+}
+
+.author{
+    padding: 30px 0;
+    display: block;
+}
+
+
