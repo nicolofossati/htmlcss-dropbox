@@ -243,7 +243,6 @@ main{
     margin: 10px 0;
 }
 
-
 .jumbotron_description_container{
     display: flex;
     width: 100%;
@@ -264,6 +263,14 @@ main{
 }
 
 
+
+.section_container{
+    margin-top: 20px;
+}
+
+.section_container h2{
+    padding: 60px 0;
+}
 
 .indoor_margin{
     margin: 0 20px;
