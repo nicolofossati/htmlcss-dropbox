@@ -41,15 +41,15 @@
     background-color: rgb(162, 239, 239);
     height: 100%;
 }
-*/
-.debug .indoor_main{
-}
+
+
 
 .debug .section_container{
     margin: 30px 0;
     background-color: rgb(255, 63, 114);
 }
 
+*/
 
 
 .debug .generic_h3_title{
@@ -187,7 +187,13 @@ main{
 }
 
 
-/* end GENERIC FONTS */
+.generic_h2{
+    font-size: 20px;
+}
+
+
+
+/* end GENERIC Rules */
 
 .nav_header{
     display: flex;
@@ -202,7 +208,7 @@ main{
 
 
 .bttn{
-    padding: 5px 10px;
+    padding: 7px 10px;
     width: max-content;
 }
 
@@ -215,6 +221,10 @@ main{
     color: white;    
 }
 
+.bttn_margin{
+    margin-bottom: 35px;
+}
+
 .jumbotron_container{
     background-color: #B4D0E7;
 }
@@ -225,7 +235,7 @@ main{
 
 .jumbotron_title h1{
     font-size: 60px;
-    padding: 80px 0 20px;
+    padding: 80px 0 40px;
 }
 
 .fa-arrow-down{
@@ -240,16 +250,17 @@ main{
 }
 
 .jumbotron_description{
-    width: 40%;
+    width: 30%;
 }
 
 .jumbotron_description span {
     display: block;
-    margin: 20px 0;
+    margin-bottom:35px;
 }
 
 .jumbotron_img{
-    width: 60%;
+    width: 70%;
+    margin-bottom: -30px;
 }
 
 
