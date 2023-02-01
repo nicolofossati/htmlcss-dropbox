@@ -495,8 +495,7 @@ footer{
 }
 
 .footer_col{
-    width: calc(100%/5 - 30px);
-    margin: 0 15px;
+    width: calc(100%/5);
 }
 
 .footer_col li{
