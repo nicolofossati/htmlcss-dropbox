@@ -106,7 +106,6 @@ h4{
 
 .fa-arrow-down{
     font-size: 35px;
-    margin: 10px 0;
 }
 
 .jumbotron_description_container{
@@ -120,12 +119,16 @@ h4{
 
 .jumbotron_description span {
     display: block;
-    margin-bottom:35px;
+    margin-bottom:30px;
+}
+
+.jum_img_container{
+    width: 70%;
 }
 
 .jumbotron_img{
-    width: 70%;
-    margin-bottom: -30px;
+    width: 100%;
+    margin-bottom: -50px;
 }
 
 
