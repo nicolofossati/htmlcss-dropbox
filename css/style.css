@@ -122,7 +122,6 @@
     border: 1px black solid;
 }
 
-*/
 
 .debug .free_trial{
     height: 200px;
@@ -138,6 +137,7 @@
 }
 
 
+*/
 .debug .faq_container{
     background-color: blanchedalmond;
 }
@@ -227,6 +227,13 @@ main{
 
 .white_bttn{
     border: black solid 1px;
+    background-color: white;
+}
+
+.white_bttn_wout_b{
+    background-color: white;
+    font-size: 14px;    
+    padding: 7px 20px;
 }
 
 #blue_bttn_id{
@@ -618,4 +625,12 @@ main{
     display: block;
 }
 
+
+.free_trial_container{
+    background-color: #B4D0E7;
+}
+
+.free_trial{
+    padding: 100px 0;
+}
 
