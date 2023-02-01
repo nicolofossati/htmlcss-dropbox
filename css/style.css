@@ -406,8 +406,10 @@ main{
 
 .divisor{
     width: 20%;
-    color: #bfbebe;
+    color: #dedcdc;
     margin-bottom: 30px;
+    background-color: #dedcdc;
+    border: 1px solid #dedcdc;
 }
 
 .row_list{
@@ -501,7 +503,7 @@ main{
 }
 
 .small_square img{
-    /* find color for .svg*/
+    filter: invert(1);
 }
 
 .designit img{
@@ -512,7 +514,7 @@ main{
 }
 
 .asu img{
-    width: 100px;
+    width: 125px;
 }
 .asu{
     background-color: #61082B;
@@ -541,7 +543,7 @@ main{
 }
 
 .hearst img{
-    width: 100px;
+    width: 150px;
 }
 .hearst{
     background-color: #B4D0E7;
@@ -607,7 +609,11 @@ main{
 
 
 .faq_container{
-    margin: 50px 0;
+    margin: 100px 0;
+}
+
+.faq_container h2{
+    padding-bottom: 20px;
 }
 
 .faq_row{
@@ -622,29 +628,54 @@ main{
 
 .faq_container hr{
     margin: 30px 0;
+    color: #dedcdc;
+    background-color: #dedcdc;
+    border: 1px solid #dedcdc;
 }
 
 
+
+footer{
+    color: white;
+    background-color: black;
+}
 
 .footer_container{
     width: 60%;
     margin: auto;
-    background-color: aqua;
 }
 
 .footer_col{
-    width: calc(100%/6 - 40px);
-    background-color: rgb(42, 148, 148);
-    margin: 0 20px;
-    height: 200px;
+    width: calc(100%/5 - 30px);
+    margin: 0 15px;
+}
+
+.footer_col li{
+    list-style-type: none;
+    font-size: 12px;
+    padding: 5px 0;
+}
+
+.footer_col h3{
+    padding-bottom: 20px;
 }
 
 
 .footer_top{
     display: flex;
+    padding: 70px 0;
 }
 
 .footer_bottom{
     height: 100px;
 }
 
+
+#languages{
+    color: #989999;
+    font-size: 13px;
+}
+
+#languages span{
+    padding-left: 5px;
+}
