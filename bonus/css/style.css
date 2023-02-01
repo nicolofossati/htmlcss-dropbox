@@ -1,8 +1,3 @@
-.nav_header a:hover {
-    border-bottom: solid 2px black;
-}
-
-
 *{
     margin: 0;
     padding: 0;
@@ -77,9 +72,17 @@ h4{
     color: white;
 }
 
+.blue_bttn:hover {
+    background-color: #0062ffad;
+}
+
 .white_bttn{
     border: black solid 1px;
     background-color: white;
+}
+
+.white_bttn:hover {
+    background-color: rgba(182, 182, 182, 0.14);
 }
 
 .white_bttn_wout_b{
@@ -88,10 +91,18 @@ h4{
     padding: 7px 20px;
 }
 
+.white_bttn_wout_b:hover {
+    background-color: rgb(255 255 255 / 65%);
+}
+
 #blue_bttn_id{
     background-color: #0061FF;
     color: white;  
     display: inline-block;  
+}
+
+#blue_bttn_id:hover {
+    background-color: #0062ffad;
 }
 
 .bttn_margin{
