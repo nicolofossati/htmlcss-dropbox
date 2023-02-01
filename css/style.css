@@ -55,7 +55,7 @@ h4{
 
 .nav_header a{
     color: #4f4d4d;
-    padding: 10px;
+    padding: 13px;
     font-weight: 400;
 }
 
@@ -131,14 +131,8 @@ h4{
     margin-bottom: -50px;
 }
 
-
-
 .section_container{
     margin-top: 20px;
-}
-
-.section_container h2{
-    padding-top: 60px ;
 }
 
 .indoor_margin{
@@ -176,7 +170,6 @@ h4{
     text-align: center;
 }
 
-
 .col_container{
     display: flex;
     justify-content: space-between;
@@ -184,8 +177,8 @@ h4{
 }
 
 .col{
-    width: calc(100% - 40px);
-    margin: 0 20px;
+    width: calc(100% - 20px);
+    margin: 0 10px;
 }
 
 .border_grey{
@@ -277,7 +270,7 @@ h4{
 
 .contact_partner_container{
     display: flex;
-    margin: 30px 20px;
+    margin: 100px 20px;
 }
 
 .contact_img_container{
@@ -330,6 +323,7 @@ h4{
 .partner_link_container a{
     padding-top: 40px;
     display: block;
+    color: #1e1ee2;
 }
 
 
@@ -343,6 +337,10 @@ h4{
 .small_square{
     width: 50%;
     height: 50%;
+}
+
+.partner_logo_selected{
+    border: #ffffff8c 12px solid;
 }
 
 .flex_center{
@@ -417,7 +415,12 @@ h4{
     background-color: #F5F5F5;
     width: calc(100vw/3);
     height: calc(100vw/3);
+    overflow-y: auto;
 }
+
+.big_content_square::-webkit-scrollbar {
+    display: none;
+  }
 
 .big_square_indoor{
     width: 90%;
